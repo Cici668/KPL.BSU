@@ -1,0 +1,398 @@
+# KPL.BSU<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>KPL Series BSU</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* 整体字体微调：更现代化的系统字体栈，保留 Noto Sans SC 用于特定中文区 */
+body{
+margin:0;
+background:#0a0a14;
+color:white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+text-align:center;
+}
+
+nav{
+background:#111;
+padding:15px;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav a{
+color:white;
+margin:0 20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00d4ff;
+}
+
+header{
+padding:40px 20px;
+}
+
+.logo{
+width:100%;
+margin:auto;
+}
+
+h1{
+font-size:42px;
+margin:10px 0;
+}
+
+.chinese-title{
+font-family:"Noto Sans SC";
+font-size:26px;
+letter-spacing:2px;
+color:#00d4ff;
+}
+
+section{
+padding:60px 20px;
+}
+
+.card{
+background:#141427;
+max-width:900px;
+margin:20px auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,212,255,0.3);
+}
+
+.org-chart{
+max-width:1100px;
+margin:auto;
+}
+
+.org-row{
+display:flex;
+justify-content:center;
+gap:30px;
+margin:25px 0;
+flex-wrap:wrap;
+}
+
+.org-box{
+background:#141427;
+padding:20px;
+border-radius:10px;
+width:220px;
+font-family:"Noto Sans SC";
+line-height:1.8;
+box-shadow:0 0 12px rgba(0,212,255,0.3);
+}
+
+.leader{
+background:#1b1b33;
+border:2px solid #00d4ff;
+}
+
+button{
+padding:12px 25px;
+font-size:16px;
+border:none;
+border-radius:8px;
+background:#00d4ff;
+color:white;
+cursor:pointer;
+}
+
+.countdown{
+font-size:32px;
+color:#00d4ff;
+margin-top:20px;
+}
+
+footer{
+margin-top:60px;
+padding:30px;
+background:#111;
+color:#888;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<!-- Navigation -->
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#format">Format</a>
+<a href="#schedule">Schedule</a>
+<a href="#organization">Organization</a>
+<a href="#live">Live</a>
+<a href="#champions">Champions</a>
+
+</nav>
+
+
+<header>
+
+<div class="logo">
+
+<img 
+src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/e71850ca8948482fa1349cf04b61783a.png~tplv-a9rns2rl98-image.png?lk3s=8e244e95&rcl=20260312214451AE17D70295C209559647&rrcfp=dafada99&x-expires=2089547091&x-signature=Gn7MsJrroHtHDcOn%2FQePdTNtNUU%3D"
+alt="KPL SERIES BSU Logo"
+style="width:800px;height:auto;display:block;margin:0 auto;"
+>
+
+</div>
+
+<h1>KPL Series BSU</h1>
+
+<div class="chinese-title">
+KPL系列赛国际教育与交流学院欧语系站
+</div>
+
+</header>
+
+
+<!-- About -->
+
+<section id="about">
+
+<h2>About the Tournament</h2>
+
+<div class="card">
+
+KPL Series BSU is an esports tournament organized by the Department of European Languages at the International Education and Exchange School.
+
+The competition gathers top student teams and aims to promote esports culture, teamwork, and international exchange.
+
+</div>
+
+</section>
+
+
+<!-- Format -->
+
+<section id="format">
+
+<h2>Tournament Format</h2>
+
+<div class="card">
+
+Group Stage → Knockout Stage → Grand Final
+
+<br><br>
+
+• Group Stage: Round Robin  
+<br>
+• Semi Finals: BO3  
+<br>
+• Grand Final: BO5  
+
+</div>
+
+</section>
+
+
+<!-- Schedule 部分已按要求修改为两场新闻发布会 + 正式比赛 -->
+
+<section id="schedule">
+
+<h2>Match Schedule</h2>
+
+<div class="card">
+
+Press Conference – April 1  
+<br>
+Press Conference – May 6  
+<br>
+Main Event – June 10  
+
+</div>
+
+</section>
+
+
+<!-- Countdown 日期已调整为正式比赛日 2026年6月10日 18:00 -->
+
+<section>
+
+<h2>Match Countdown</h2>
+
+<div class="countdown" id="countdown"></div>
+
+</section>
+
+
+<!-- Organization -->
+
+<section id="organization">
+
+<h2>Event Organizational Structure</h2>
+
+<div class="org-chart">
+
+<div class="org-row">
+<div class="org-box leader">
+<b>President</b><br>
+尹嘉辰
+</div>
+</div>
+
+<div class="org-row">
+<div class="org-box leader">
+<b>Vice President</b><br>
+于骏希
+</div>
+</div>
+
+
+<div class="org-row">
+
+<div class="org-box">
+<b>Competition Management</b><br>
+蒋茂林<br>
+张德佺<br>
+费凡
+</div>
+
+<div class="org-box">
+<b>Venue & Infrastructure</b><br>
+马书颜<br>
+王熙<br>
+顾佳
+</div>
+
+<div class="org-box">
+<b>Human Resources</b><br>
+付圣杰<br>
+高一丹<br>
+季昕然
+</div>
+
+<div class="org-box">
+<b>Legal Affairs</b><br>
+郭欣怡<br>
+赵允宁<br>
+王奕洁
+</div>
+
+</div>
+
+
+<div class="org-row">
+
+<div class="org-box">
+<b>Marketing & Finance</b><br>
+黄睿洋<br>
+谭羽涵
+</div>
+
+<div class="org-box">
+<b>Media & Communications</b><br>
+于骏希<br>
+赵嘉仪<br>
+尹嘉辰
+</div>
+
+<div class="org-box">
+<b>Event Logistics</b><br>
+姜珂仪<br>
+陈好<br>
+曹佳锐
+</div>
+
+<div class="org-box">
+<b>Emergency & Security</b><br>
+韩璐羽<br>
+常淇然
+</div>
+
+</div>
+
+</div>
+
+<br><br>
+
+<button onclick="downloadPDF()">Download Organization PDF</button>
+
+</section>
+
+
+<!-- Live -->
+
+<section id="live">
+
+<h2>Live Stream</h2>
+
+<div class="card">
+
+Live broadcast will be available on Bilibili.
+
+<br><br>
+
+<button>Watch Live</button>
+
+</div>
+
+</section>
+
+
+<!-- Champions -->
+
+<section id="champions">
+
+<h2>Champion Board</h2>
+
+<div class="card">
+
+Season 1 Champion – TBD
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 KPL Series BSU  
+International Education and Exchange School
+
+</footer>
+
+
+<script>
+
+function downloadPDF(){
+alert("Upload your organization PDF here.");
+}
+
+// 倒计时日期更新为 2026年6月10日 18:00:00
+var countDate = new Date("June 10, 2026 18:00:00").getTime();
+
+setInterval(function(){
+
+var now = new Date().getTime();
+var distance = countDate - now;
+
+var days = Math.floor(distance/(1000*60*60*24));
+var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+var minutes = Math.floor((distance%(1000*60*60))/(1000*60));
+
+document.getElementById("countdown").innerHTML =
+days + "d " + hours + "h " + minutes + "m ";
+
+},1000);
+
+</script>
+
+</body>
+</html>
